@@ -1,66 +1,23 @@
-# client
+🌤️ Weather App
 
-This template should help get you started developing with Vue 3 in Vite.
+A simple and clean weather application that provides real-time weather details and forecasts for any city.
 
-## Recommended IDE Setup
+🚀 Features
 
-[VS Code](https://code.visualstudio.com/) + [Vue (Official)](https://marketplace.visualstudio.com/items?itemName=Vue.volar) (and disable Vetur).
+🌍 Search weather by city name
 
-## Recommended Browser Setup
+🌡️ Minimum & Maximum temperature
 
-- Chromium-based browsers (Chrome, Edge, Brave, etc.):
-  - [Vue.js devtools](https://chromewebstore.google.com/detail/vuejs-devtools/nhdogjmejiglipccpnnnanhbledajbpd)
-  - [Turn on Custom Object Formatter in Chrome DevTools](http://bit.ly/object-formatters)
-- Firefox:
-  - [Vue.js devtools](https://addons.mozilla.org/en-US/firefox/addon/vue-js-devtools/)
-  - [Turn on Custom Object Formatter in Firefox DevTools](https://fxdx.dev/firefox-devtools-custom-object-formatters/)
+🕒 Last updated time
 
-## Customize configuration
+💨 Wind speed
 
-See [Vite Configuration Reference](https://vite.dev/config/).
+💧 Humidity
 
-## Project Setup
+⏰ Hourly forecast
 
-```sh
-npm install
-```
+📅 Next 5 days forecast
 
-### Compile and Hot-Reload for Development
-
-```sh
-npm run dev
-```
-
-### Compile and Minify for Production
-
-```sh
-npm run build
-```
-
-### Run Unit Tests with [Vitest](https://vitest.dev/)
-
-```sh
-npm run test:unit
-```
-
-### Run End-to-End Tests with [Cypress](https://www.cypress.io/)
-
-```sh
-npm run test:e2e:dev
-```
-
-This runs the end-to-end tests against the Vite development server.
-It is much faster than the production build.
-
-But it's still recommended to test the production build with `test:e2e` before deploying (e.g. in CI environments):
-
-```sh
-npm run build
-npm run test:e2e
-```
-
-### Lint with [ESLint](https://eslint.org/)
-
-```sh
-npm run lint
-```
+<img width="1882" height="753" alt="WEATHER APP - Google Chrome 26-02-2026 19_20_11" src="./src/assets/screenshot1.png" />
+<img width="1882" height="753" alt="WEATHER APP - Google Chrome 26-02-2026 19_20_11" src="./src/assets/screeshot2.png" />
+<img width="1882" height="753" alt="WEATHER APP - Google Chrome 26-02-2026 19_20_11" src="./src/assets/screenshot3.png" />
