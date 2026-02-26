@@ -106,7 +106,7 @@ export default {
       if (navigator.geolocation) {
         navigator.geolocation.getCurrentPosition(async (position) => {
           const { latitude, longitude } = position.coords;
-          const url = `http://api.openweathermap.org/data/2.5/weather?lat=${latitude}&lon=${longitude}&appid=${apikey}`;
+          const url = `https://api.openweathermap.org/data/2.5/weather?lat=${latitude}&lon=${longitude}&appid=${apikey}`;
           await this.fetchWeatherData(url);
         });
       }
@@ -124,7 +124,7 @@ export default {
       }
     },
     async fetchForecast(city) {
-      const urlcast = `http://api.openweathermap.org/data/2.5/forecast?q=${city}&appid=${apikey}`;
+      const urlcast = `https://api.openweathermap.org/data/2.5/forecast?q=${city}&appid=${apikey}`;
       try {
         const response = await axios.get(urlcast);
         const forecast = response.data;
@@ -137,7 +137,7 @@ export default {
     async searchByCity() {
       if (!this.city) return;
       try {
-        const urlsearch = `http://api.openweathermap.org/data/2.5/weather?q=${this.city}&appid=${apikey}`;
+        const urlsearch = `https://api.openweathermap.org/data/2.5/weather?q=${this.city}&appid=${apikey}`;
         const response = await axios.get(urlsearch);
         this.weatherData = response.data;
         // Fetch forecast data
